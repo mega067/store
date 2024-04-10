@@ -1,0 +1,42 @@
+body {
+    background: rgb(240,225,114);
+    background: linear-gradient(0deg, rgba(240,225,114,1) 0%, rgba(159,17,140,1) 100%);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    
+}
+.titulo{
+ text-align: center;
+
+
+}
+.tabla{
+
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 30px;
+    
+    background-color: #229231;
+    padding: 20px;
+}
+img{
+    border-radius: 20px;
+    align-items: center;
+    width: 200px;
+    height: auto;
+}
+
+.p1{
+    
+    color: aqua;
+
+}
+footer{
+
+    color: #229231;
+
+}
+
+
