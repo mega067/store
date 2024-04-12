@@ -29,6 +29,22 @@ html{
     margin-bottom: 20px; /* Agregar margen entre filas */
     border: 4px solid #f30000; /* Agregar borde alrededor de cada tabla */
 }
+.producto{
+
+
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 30px;
+    
+    background: linear-gradient(0deg, rgb(0, 195, 255) 0%, rgb(30, 255, 0) 100%);
+    
+    padding: 20px;
+    margin-bottom: 20px; /* Agregar margen entre filas */
+    border: 4px solid #f30000; /* Agregar borde alrededor de cada tabla */
+}
 
 img{
     border: 4px solid #009de6; /* Agregar borde alrededor de cada tabla */
