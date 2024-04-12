@@ -11,6 +11,7 @@ html{
 }
 .tabla{
 
+
     text-align: center;
     align-items: center;
     margin-top: 30px;
@@ -18,9 +19,12 @@ html{
     margin-right: 500px;
     border-radius: 30px;
     
-    background-color: #229231;
+    background-color: #096ee0;
     padding: 20px;
+    margin-bottom: 20px; /* Agregar margen entre filas */
+    border: 1px solid #ccc; /* Agregar borde alrededor de cada tabla */
 }
+
 img{
     border-radius: 20px;
     align-items: center;
