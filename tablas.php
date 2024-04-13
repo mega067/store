@@ -10,7 +10,7 @@ if ($resultado->num_rows > 0) {
     while ($fila = $resultado->fetch_row()) {
         $nombre_tabla = $fila[0];
         // Generar la ruta de la imagen (suponiendo que las imágenes están en la misma carpeta)
-        $ruta_imagen = $nombre_tabla . ".png";
+        $ruta_imagen = "tablas_img/". $nombre_tabla . ".png";
         // Mostrar la imagen y el nombre de la tabla como enlaces
         echo '<div class="tabla">';
         echo '<a href="' . $nombre_tabla . '.php">';
