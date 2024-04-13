@@ -29,6 +29,10 @@
   
   
   <footer class="pie">
+  <a href="https://github.com/mega067/store">
+  <img class="git"src="git.png" alt="git" >
+  <p>github</p>
+  </a>
     <p>© 2024 Tienda de abarrotes Angel Y Michellel. Todos los derechos reservados.</p>
   </footer>
 
