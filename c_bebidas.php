@@ -16,13 +16,14 @@ if ($resultado->num_rows > 0) {
         $ruta_imagen = "bebidas_img/" . $nombre_producto . ".png";
 
         echo '<div class="producto">';
-            echo '<a href="' . $codigo_de_barras . '.php">';
-                echo '<img src="' . $ruta_imagen . '" alt="' . $nombre_producto . '">';
+            echo '<a href="' . $nombre_producto . '.php">';
+                echo '<img class="tabla_img" src="' . $ruta_imagen . '" alt="' . $nombre_producto . '">';
                 echo '<p>' . $nombre_producto . '</p>';
                 echo '<p>Precio: $' . $precio_unitario . ' MXN</p>';
                 echo '<p class="contenido">' . $contenido . '</p>'; // Mostrar el contenido en un párrafo
             echo '</a>';
-            echo '<button type="button" onclick="comprarProducto(\'' . $codigo_de_barras . '\')">Comprar</button>'; // Botón con función JavaScript
+
+            echo '<button class="btn" type="button" onclick="comprarProducto(\'' . $nombre_producto . '\')"><img class="comprar" src="iconos/comprar.png"></button>'; // Botón con función JavaScript
         echo '</div>';
 
         $contador++;

@@ -6,6 +6,10 @@
   <link rel="stylesheet" type="text/css" href="style.css"> </head>
 <body>
 <h1 class="titulo">bebidas</h1>
+<div class="carrito">
+
+
+</div>
 <div class="tablas">
     <!-- Incluir el archivo PHP que muestra las tablas -->
     <?php include 'c_bebidas.php'; ?>
@@ -28,7 +32,7 @@
 </body>
 <footer class="pie">
   <a href="https://github.com/mega067/store">
-  <img class="git"src="git.png" alt="git" >
+  <img class="git"src="iconos/github.png" alt="git" >
   <p>github</p>
   </a>
     <p>© 2024 Tienda de abarrotes Angel Y Michellel. Todos los derechos reservados.</p>

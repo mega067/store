@@ -14,7 +14,7 @@ if ($resultado->num_rows > 0) {
         // Mostrar la imagen y el nombre de la tabla como enlaces
         echo '<div class="tabla">';
         echo '<a href="' . $nombre_tabla . '.php">';
-        echo '<img src="' . $ruta_imagen . '" alt="' . $nombre_tabla . '">';
+        echo '<img class="tabla_img" src="' . $ruta_imagen . '" alt="' . $nombre_tabla . '">';
         echo '<p>' . $nombre_tabla . '</p>';
         echo '</a>';
         echo '</div>';

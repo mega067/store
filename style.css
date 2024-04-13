@@ -46,7 +46,7 @@ html{
     border: 4px solid #f30000; /* Agregar borde alrededor de cada tabla */
 }
 
-img{
+.tabla_img{
     border: 4px solid #009de6; /* Agregar borde alrededor de cada tabla */
     border-radius: 20px;
     align-items: center;
@@ -74,5 +74,15 @@ footer{
     height: auto;
     align-items: center;
     margin-left: 20px;
-    margin-right: 20pk
-    ;}
+    margin-right: 20pk;
+
+}
+.comprar{
+    width: 40px;
+    height: auto;
+}
+.btn{
+
+    background-color: #009de6;
+
+}
