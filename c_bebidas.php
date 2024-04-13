@@ -23,7 +23,7 @@ if ($resultado->num_rows > 0) {
                 echo '<p class="contenido">' . $contenido . '</p>'; // Mostrar el contenido en un párrafo
             echo '</a>';
 
-            echo '<button class="btn" type="button" onclick="comprarProducto(\'' . $nombre_producto . '\')"><img class="comprar" src="iconos/comprar.png"></button>'; // Botón con función JavaScript
+            echo '<button class="btn_agregar_carrito" type="button" onclick="comprarProducto(\'' . $nombre_producto . '\')"><img class="comprar" src="iconos/comprar.png"></button>'; // Botón con función JavaScript
         echo '</div>';
 
         $contador++;
