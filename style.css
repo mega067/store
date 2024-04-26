@@ -105,14 +105,20 @@ footer{
 }
 
 .btn_rellenar{
+    margin: 12px;
     margin-right: 12px;
     background-color: #18aa24;
     margin-top: 12px;
 }
 .btn_comprar{
+    margin: 12px;
     margin-top: 18px;
     margin-right: 12px;
 
     background-color: #009de6;
 
+}
+.unidades{
+    font-size: 19px;
+    margin: 12px;
 }

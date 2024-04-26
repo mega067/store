@@ -5,7 +5,7 @@
   <title>Tienda</title>
   <link rel="stylesheet" type="text/css" href="style.css"> </head>
 <body>
-<h1 class="titulo">galleyas</h1>
+<h1 class="titulo">galletas</h1>
 <div class="carrito">
 
 

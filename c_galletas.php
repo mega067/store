@@ -11,7 +11,7 @@ if ($resultado->num_rows > 0) {
         $codigo_de_barras = $fila["codigo_barras"];
         $nombre_producto = $fila["nombre"];
         $precio_unitario = $fila["precio_unitario"];
-        $unidades = $fila["cantidad_pz"];
+        $unidades = $fila["cantidad_disponible"];
         $marca = $fila["marca"]; // Obtener el contenido del producto
         $sabor = $fila["Sabor"]; // Obtener el contenido del producto
         $ruta_imagen = "bebidas_img/" . $nombre_producto . ".png";
@@ -28,7 +28,7 @@ if ($resultado->num_rows > 0) {
 
         // Formulario para rellenar inventario
         echo '<form action="
-        compras_bebidas/actualizar_inventario_bebidas.php" 
+        compras_galletas/actualizar_inventario_galleta.php" 
         method="post">';
         echo '<input type="hidden" name="codigo_de_barras" value="' . $codigo_de_barras . '">';
         echo '<label for="unidades_a_agregar">Unidades a agregar:</label>';
@@ -37,12 +37,13 @@ if ($resultado->num_rows > 0) {
         echo '</form>';
 
         // Formulario para comprar
-        echo '<form action="
-        compras_bebidas/procesar_compra_bebidas.php" 
+        echo '<div>';
+        echo '<form action=
+        "compras_galletas/procesar_compra_galleta.php" 
         method="post">';
         echo '<input type="hidden" name="codigo_de_barras" value="' . $codigo_de_barras . '">';
-        echo '<label for="unidades_a_comprar">Unidades a comprar:</label>';
-        echo '<label for="unidades_a_comprar">          </label>';
+        echo '<label for="unidades_a_comprar" class=unidades >Unidades a comprar:                 </label>';
+        echo '</div>';
 
         echo '<input type="number" id="unidades_a_comprar" name="unidades_a_comprar" min="1" max="' . $unidades . '" required>';
         echo '<button type="submit" class="btn_comprar">Comprar</button>';
