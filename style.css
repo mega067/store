@@ -1,6 +1,6 @@
 html{
     background: rgb(240,225,114);
-    background: linear-gradient(0deg, rgba(240,225,114,1) 0%, rgba(159,17,140,1) 100%);
+    background: linear-gradient(0deg, rgba(240,225,114,1) 0%, rgb(251, 255, 0) 100%);
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     
 }
@@ -106,7 +106,7 @@ footer{
 
 .btn_rellenar{
     margin-right: 12px;
-    background-color: #009de6;
+    background-color: #18aa24;
 }
 .btn_comprar{
     margin-right: 12px;
