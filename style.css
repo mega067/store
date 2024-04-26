@@ -103,7 +103,13 @@ footer{
     width: 40px;
     height: auto;
 }
-.btn_agregar_carrito{
+
+.btn_rellenar{
+    margin-right: 12px;
+    background-color: #009de6;
+}
+.btn_comprar{
+    margin-right: 12px;
 
     background-color: #009de6;
 
