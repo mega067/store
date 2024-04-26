@@ -5,7 +5,7 @@
   <title>Tienda</title>
   <link rel="stylesheet" type="text/css" href="style.css"> </head>
 <body>
-<h1 class="titulo">bebidas</h1>
+<h1 class="titulo">galleyas</h1>
 <div class="carrito">
 
 
@@ -13,7 +13,7 @@
  <div class="divcen">
 
     <!-- Incluir el archivo PHP que muestra las tablas -->
-    <?php include 'c_bebidas.php'; ?>
+    <?php include 'c_galletas.php'; ?>
  </div>
  
   </div>

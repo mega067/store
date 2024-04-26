@@ -107,8 +107,10 @@ footer{
 .btn_rellenar{
     margin-right: 12px;
     background-color: #18aa24;
+    margin-top: 12px;
 }
 .btn_comprar{
+    margin-top: 18px;
     margin-right: 12px;
 
     background-color: #009de6;

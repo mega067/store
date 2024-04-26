@@ -37,5 +37,5 @@ if ($conexion->query($consulta) === TRUE) {
 
 // Cerrar la conexión a la base de datos
 $conexion->close();
-header('Location: http://localhost/store/bebidas.php');
+header('Location: /store/bebidas.php');
 exit;
