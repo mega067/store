@@ -10,11 +10,12 @@
 
 
 </div>
-<div class="tablas">
+ <div class="divcen">
+
     <!-- Incluir el archivo PHP que muestra las tablas -->
     <?php include 'c_bebidas.php'; ?>
-    
-  </div>
+ </div>
+ 
   </div>
   
 

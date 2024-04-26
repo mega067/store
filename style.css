@@ -13,14 +13,36 @@ html{
 
 
 }
-.tabla{
+.flex{
+    align-items: center;
+
+
+}
+.divcen{
+    align-items: center;
+
+
+}
+.tabla{ 
+
+
+ 
+    margin-left: 500px;
+    margin-right: 500px;
+
+
+    
 
 
     text-align: center;
     align-items: center;
-    margin-top: 30px;
-    margin-left: 500px;
-    margin-right: 500px;
+
+
+    min-width: 300px;
+    min-height: auto;
+    max-width: 200px;
+    max-height: auto;
+    
     border-radius: 30px;
     
     background: linear-gradient(0deg, rgb(0, 195, 255) 0%, rgb(30, 255, 0) 100%);

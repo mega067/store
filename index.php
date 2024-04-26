@@ -10,10 +10,11 @@
 <body>
   <div class="titulo">
     <h1>Tienda de abarrotes </h1>
-    <h1>Angel y Michellel </h1>
+
   </div>
   <div class="carrito"></div>
-  <div class="tablas">
+  
+  <div class="flex">
     <!-- Incluir el archivo PHP que muestra las tablas -->
     <?php include 'tablas.php'; ?>
     
@@ -27,7 +28,7 @@
 
 
   
-  
+</div>
   
   <footer class="pie">
   <a href="https://github.com/mega067/store">
