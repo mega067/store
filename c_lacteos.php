@@ -12,6 +12,8 @@ if ($resultado->num_rows > 0) {
         $nombre_producto = $fila["nombre_producto"];
         $precio_unitario = $fila["precio"];
         $unidades = $fila["Unidades"];
+        $gramos = $fila["Gramos"];
+        $litros = $fila["Litros"];
         $marca = $fila["marca"]; // Obtener el contenido del producto
         
         $ruta_imagen = "bebidas_img/" . $nombre_producto . ".png";
@@ -23,6 +25,7 @@ if ($resultado->num_rows > 0) {
         echo '<p>Precio: $' . $precio_unitario . ' MXN</p>';
 
         echo '<p class="contenido">Marca:  ' . $marca . '</p>'; // Mostrar el contenido en un párrafo
+        echo '<p class="contenido">contenido:  ' . $gramos .''. $litros .'</p>'; // Mostrar el contenido en un párrafo
         
         echo '<p class="contenido">Unidades: ' . $unidades . '</p>'; // Mostrar el contenido en un párrafo
 

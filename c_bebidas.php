@@ -12,6 +12,7 @@ if ($resultado->num_rows > 0) {
         $nombre_producto = $fila["nombre_del_producto"];
         $precio_unitario = $fila["precio_unitario"];
         $unidades = $fila["unidades_producto"];
+        $ingredientes = $fila["ingredientes"];
         $contenido = $fila["contenido"]; // Obtener el contenido del producto
         $ruta_imagen = "bebidas_img/" . $nombre_producto . ".png";
 
@@ -20,6 +21,7 @@ if ($resultado->num_rows > 0) {
         echo '<img class="tabla_img" src="' . $ruta_imagen . '" alt="' . $nombre_producto . '">';
         echo '<p>' . $nombre_producto . '</p>';
         echo '<p>Precio: $' . $precio_unitario . ' MXN</p>';
+        echo '<p>Ingredientes:  ' . $ingredientes . ' </p>';
 
         echo '<p class="contenido">' . $contenido . '</p>'; // Mostrar el contenido en un párrafo
         echo '<p class="contenido">Unidades: ' . $unidades . '</p>'; // Mostrar el contenido en un párrafo
