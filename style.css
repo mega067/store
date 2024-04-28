@@ -15,20 +15,28 @@ html{
 }
 .flex{
     align-items: center;
+    flex-grow: 1;
+    margin-left: 20%;
 
 
 }
 .divcen{
     align-items: center;
+    
+    display: flex;
+    flex-wrap: wrap;
+ 
 
 
 }
 .tabla{ 
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 15%;
 
 
- 
-    margin-left: 500px;
-    margin-right: 500px;
+
+
 
 
     
@@ -61,7 +69,7 @@ html{
     margin-right: 500px;
     border-radius: 30px;
     
-    background: linear-gradient(0deg, rgb(0, 195, 255) 0%, rgb(30, 255, 0) 100%);
+
     
     padding: 20px;
     margin-bottom: 20px; /* Agregar margen entre filas */
