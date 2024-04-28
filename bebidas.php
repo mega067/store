@@ -4,8 +4,15 @@
   <meta charset="UTF-8">
   <title>Tienda</title>
   <link rel="stylesheet" type="text/css" href="style.css"> </head>
+
+  <div class="boton">
+  <a href="/store/" class="volver"><img class="volver_img" src="iconos/volver.png"></a>
+
+  <h1 class="titulo">bebidas</h1>
+  
+  </div>
+
 <body>
-<h1 class="titulo">bebidas</h1>
 <div class="carrito">
 
 

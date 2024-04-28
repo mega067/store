@@ -4,15 +4,13 @@ html{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     
 }
-.titulo{
-
-    
+.titulo {
+    flex: 1; /* Esto hace que el título ocupe todo el espacio disponible */
+    margin-right: 10px; /* Esto añade un espacio entre el título y el botón */
     border-radius: 80px;
     background: linear-gradient(0deg, rgb(0, 195, 255) 0%, rgb(30, 255, 0) 100%);
     text-align: center;
-
-
-}
+  }
 .flex{
     align-items: center;
     flex-grow: 1;
@@ -134,3 +132,18 @@ footer{
     background-color: #003cff;
     margin-top: 12px;
 }
+.volver {
+    align-items: center;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .volver_img {
+    height: 40px;
+    width: 40px;
+  }
+  
+  .boton {
+    display: flex;
+    align-items: center; /* Esto asegura que los elementos estén alineados verticalmente */
+  }
