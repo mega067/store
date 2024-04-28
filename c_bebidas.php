@@ -30,7 +30,7 @@ if ($resultado->num_rows > 0) {
         " method="post">';
         echo '<input type="hidden" name="codigo_de_barras" value="' . $codigo_de_barras . '">';
         echo '<label for="unidades_a_agregar">Unidades a agregar:</label>';
-        echo '<input type="number" id="unidades_a_agregar" name="unidades_a_agregar" min="1" required>';
+        echo '<input type="number" id="unidades_a_agregar" name="unidades_a_agregar"  required>';
         echo '<button type="submit" class="btn_rellenar">Rellenar inventario</button>';
         echo '</form>';
 

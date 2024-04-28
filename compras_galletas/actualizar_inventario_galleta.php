@@ -6,10 +6,12 @@ $codigo_de_barras = $_POST['codigo_de_barras'];
 $unidades_a_agregar = $_POST['unidades_a_agregar'];
 
 // Validar la entrada del usuario
+/*
 if (!is_numeric($unidades_a_agregar) || $unidades_a_agregar <= 0) {
     echo "Error: La cantidad de unidades debe ser un número entero positivo.";
     exit;
 }
+*/
 
 // Obtener las unidades actuales del producto
 $consulta = "SELECT cantidad_disponible FROM galletas WHERE codigo_barras = '$codigo_de_barras'";
