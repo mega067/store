@@ -35,19 +35,20 @@ if ($resultado->num_rows > 0) {
         echo '</form>';
 
         // Formulario para comprar
-        echo '<div>';
+        
         echo '<form action=
         "compras_bebidas/procesar_compra_bebidas.php" 
         method="post">';
         echo '<input type="hidden" name="codigo_de_barras" value="' . $codigo_de_barras . '">';
         echo '<label for="unidades_a_comprar" class=unidades >Unidades a comprar:                 </label>';
-        echo '</div>';
+        
 
         echo '<input type="number" id="unidades_a_comprar" name="unidades_a_comprar" min="1" max="' . $unidades . '" required>';
         echo '<button type="submit" class="btn_comprar">Comprar</button>';
         echo '</form>';
 
         echo '</div>';
+
 
         $contador++;
 

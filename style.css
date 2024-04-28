@@ -118,18 +118,19 @@ footer{
     background-color: #18aa24;
     margin-top: 12px;
 }
-.btn_comprar{
-    margin: 12px;
-    margin-top: 18px;
-    margin-right: 12px;
-
-    background-color: #009de6;
-
-}
-.unidades{
-    font-size: 19px;
-    margin: 12px;
+.unidades {
+    
+    display: block; /* Para que el label aparezca en una línea separada */
+    margin-bottom: 5px; /* Espacio entre el label y el input */
 }
 #unidades_a_comprar{
-    
+    width: 50%;
+
+}
+
+.btn_comprar {
+    margin: 12px;
+    margin-right: 12px;
+    background-color: #003cff;
+    margin-top: 12px;
 }
