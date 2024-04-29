@@ -111,6 +111,8 @@ footer{
 }
 
 .btn_rellenar{
+    width: 70px;
+    height: 50px;
     margin: 12px;
     margin-right: 12px;
     background-color: #18aa24;
@@ -118,20 +120,35 @@ footer{
 }
 .unidades {
     
+    
     display: block; /* Para que el label aparezca en una línea separada */
     margin-bottom: 5px; /* Espacio entre el label y el input */
 }
+
 #unidades_a_comprar{
+    margin: 12px;
     width: 50%;
+    height: 25px;
+
+}
+#unidades_a_agregar{
+    margin: 12px;
+    width: 50%;
+    height: 25px;
 
 }
 
 .btn_comprar {
+    width: 70px;
+    height: 50px;
     margin: 12px;
     margin-right: 12px;
-    background-color: #003cff;
+    background-color: #eeff00;
     margin-top: 12px;
 }
+
+
+
 .volver {
     align-items: center;
     height: 50px;
