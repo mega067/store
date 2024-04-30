@@ -13,9 +13,10 @@ if ($resultado->num_rows > 0) {
         $precio_unitario = $fila["precio"];
         $unidades = $fila["unidad"];
         $marca = $fila["marca"];
+        $sabor = $fila["sabor"];
         $etiqueta = $fila["etiqueta_de_Salud"];
         $contenido = $fila["contenido_gr_net"]; // Obtener el contenido del producto
-        $ruta_imagen = "bebidas_img/" . $nombre_producto . ".png";
+        $ruta_imagen = "sabritas_img/" . $nombre_producto . ".png";
 
         echo '<div class="tabla" class="flex">';
 
@@ -27,6 +28,7 @@ if ($resultado->num_rows > 0) {
         echo '<p class="contenido">contenido:  ' . $contenido . '</p>'; // Mostrar el contenido en un párrafo
         echo '<p class="contenido">etiquetas de salud: ' . $etiqueta . '</p>'; // Mostrar el contenido en un párrafo
         echo '<p class="contenido">Unidades: ' . $unidades . '</p>'; // Mostrar el contenido en un párrafo
+        echo '<p class="contenido">Sabor: ' . $sabor . '</p>'; // Mostrar el contenido en un párrafo
 
         // Formulario para rellenar inventario
         echo '<form action="

@@ -8,7 +8,7 @@
   <div class="boton">
   <a href="/store/" class="volver"><img class="volver_img" src="iconos/volver.png"></a>
 
-  <h1 class="titulo">bebidas</h1>
+  <h1 class="titulo">sabritas</h1>
   
   </div>
 
