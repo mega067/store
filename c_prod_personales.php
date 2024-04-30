@@ -14,7 +14,7 @@ if ($resultado->num_rows > 0) {
         $unidades = $fila["unidades"];
         $marca = $fila["marca"];
         $contenido = $fila["contenido"]; // Obtener el contenido del producto
-        $ruta_imagen = "bebidas_img/" . $nombre_producto . ".png";
+        $ruta_imagen = "prod_personales_img/" . $nombre_producto . ".png";
 
         echo '<div class="tabla" class="flex">';
 
