@@ -12,21 +12,24 @@ if ($resultado->num_rows > 0) {
         $nombre_producto = $fila["nombre"];
         $precio_unitario = $fila["precio_unitario"];
         $unidades = $fila["cantidad_disponible"];
+        $unidades_pz = $fila["cantidad_pz"];
         $marca = $fila["marca"]; // Obtener el contenido del producto
         $etiqueta = $fila["Etiqueta_de_Salud"]; // Obtener el contenido del producto
         $sabor = $fila["Sabor"]; // Obtener el contenido del producto
-        $ruta_imagen = "bebidas_img/" . $nombre_producto . ".png";
+        $ruta_imagen = "galletas_img/" . $nombre_producto . ".png";
 
         echo '<div class="tabla" class="flex">';
 
         echo '<img class="tabla_img" src="' . $ruta_imagen . '" alt="' . $nombre_producto . '">';
         echo '<p>' . $nombre_producto . '</p>';
         echo '<p>Precio: $' . $precio_unitario . ' MXN</p>';
+        
 
         echo '<p class="contenido">Marca:  ' . $marca . '</p>'; // Mostrar el contenido en un párrafo
         echo '<p class="contenido">Etiqueta de salud:  ' . $etiqueta . '</p>'; // Mostrar el contenido en un párrafo
         echo '<p class="contenido">Sabor:  ' . $sabor . '</p>'; // Mostrar el contenido en un párrafo
         echo '<p class="contenido">Unidades: ' . $unidades . '</p>'; // Mostrar el contenido en un párrafo
+        echo '<p class="contenido">Contenido: ' . $unidades_pz . '</p>'; // Mostrar el contenido en un párrafo
 
         // Formulario para rellenar inventario
         echo '<form action="
