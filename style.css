@@ -28,6 +28,20 @@ html{
 
 
   }
+  .busqueda{
+    margin-left: 35%;
+  
+
+  }
+  .img_btn{
+    height: 30px;
+
+  }
+  .inp_bus{
+    height: 20px;
+  }
+  
+
   .name_tb{
     color: #001988;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
