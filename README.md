@@ -1,4 +1,6 @@
 <h1>tienda oline con PHP y html</h1>
 
-MySQL
-PHPMyadmin
+<h1>tecnologías usadas: </h1>
+<p>MySQL</p>
+<p>PHPMyadmin</p>
+
