@@ -230,3 +230,11 @@ footer{
   .error_ms{
     font-size: 25px;
   }
+  .error_img{
+    height: 500px;
+    width: auto;
+  }
+  .div_error{
+    display: flex;
+
+  }

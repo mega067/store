@@ -28,8 +28,10 @@ if (isset($_GET['q'])) {
             echo '</div>';
         }
     } else {
+        echo '<div class="div_error">';
         echo'<img src="iconos/error.png" class="error_img" title="error">';
-        echo '<p class="error_ms">No se encontraron tablas que coincidan con la búsqueda: ' . $busqueda .'</p>';
+        echo '<h2 class="error_ms">No se encontraron tipos de productos que coincidan con la búsqueda: ' . $busqueda .'</h2>';
+        echo'</div>';
     }
 
     // Cerrar el contenedor de tablas
