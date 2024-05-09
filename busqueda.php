@@ -28,7 +28,8 @@ if (isset($_GET['q'])) {
             echo '</div>';
         }
     } else {
-        echo "No se encontraron tablas que coincidan con la búsqueda: " . $busqueda;
+        echo'<img src="iconos/error.png" class="error_img" title="error">';
+        echo '<p class="error_ms">No se encontraron tablas que coincidan con la búsqueda: ' . $busqueda .'</p>';
     }
 
     // Cerrar el contenedor de tablas
