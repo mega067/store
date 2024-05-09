@@ -8,26 +8,22 @@
 
 </head>
 <body>
-  <div class="titulo">
-    <h1>Tienda de abarrotes </h1>
-
+  <div class="titu" >
+   <div class="flex_logo" >
+    <img class="logo_img" src="iconos/logo.png" title="logo">
+    <h1 class="titulo_h1">Tienda de abarrotes </h1>
+    <!-- agrega aqui el boton de buscar -->
+    </div>
   </div>
   <div class="carrito"></div>
   
-  <div class="flex">
+  <div class="flex_tb">
     <!-- Incluir el archivo PHP que muestra las tablas -->
     <?php include 'tablas.php'; ?>
     
   </div>
   </div>
-  
 
-
-
-
-
-
-  
 </div>
   
   <footer class="pie">
@@ -35,7 +31,7 @@
   <img class="git"src="iconos/github.png" alt="git" >
   <p>github</p>
   </a>
-    <p>© 2024 Tienda de abarrotes Angel Y Michellel. Todos los derechos reservados.</p>
+    <p>© 2024 Tienda de abarrotes Angel Y Michelle. Todos los derechos reservados.</p>
   </footer>
 
 </body>

@@ -11,13 +11,38 @@ html{
     background: linear-gradient(0deg, rgb(0, 195, 255) 0%, rgb(30, 255, 0) 100%);
     text-align: center;
   }
-.flex{
+  .titu{
+    
+    margin: 50px;
     align-items: center;
-    flex-grow: 1;
-    margin-left: 20%;
+    height: 100x;
+    flex: 1; /* Esto hace que el título ocupe todo el espacio disponible */
+    margin-right: 10px; /* Esto añade un espacio entre el título y el botón */
+    border-radius: 80px;
+    background: linear-gradient(0deg, rgb(0, 195, 255) 0%, rgb(30, 255, 0) 100%);
+    text-align: center;
+  }
+  .titulo_h1{
+    font-size: 35px;
+    margin-left: 25px;
 
 
-}
+  }
+  .name_tb{
+    color: #001988;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+
+  }
+  .logo_img{
+
+    height: 55px;
+    width: 65px;
+
+
+
+  }
+
 .divcen{
     align-items: center;
     
@@ -27,19 +52,23 @@ html{
 
 
 }
+.flex_logo{
+    display: flex;
+    align-items: center;
+    margin: 2%;
+    margin-bottom: 12px;
+}
+.flex{
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 20%;
+
+
+}
 .tabla{ 
     align-items: center;
     margin-top: 60px;
     margin-left: 15%;
-
-
-
-
-
-
-    
-
-
     text-align: center;
     align-items: center;
 
@@ -55,6 +84,26 @@ html{
     
     padding: 20px;
     margin-bottom: 20px; /* Agregar margen entre filas */
+    border: 4px solid #f30000; /* Agregar borde alrededor de cada tabla */
+}
+.flex_tb{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tabla_tb{ 
+    
+    
+    margin: auto 30px;
+    margin-bottom: 30px;
+    align-items: center;
+    text-align: center;
+    height: 250px;
+   
+    border-radius: 30px;
+    background: linear-gradient(0deg, rgb(0, 195, 255) 0%, rgb(30, 255, 0) 100%);
+    padding: 20px;
+    
     border: 4px solid #f30000; /* Agregar borde alrededor de cada tabla */
 }
 .producto{
@@ -79,7 +128,7 @@ html{
     border-radius: 20px;
     align-items: center;
     width: 200px;
-    height: auto;
+    height: 200px;
 }
 
 .p1{

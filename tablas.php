@@ -13,10 +13,10 @@ if ($resultado->num_rows > 0) {
         $ruta_imagen = "tablas_img/". $nombre_tabla . ".png";
         // Mostrar la imagen y el nombre de la tabla como enlaces
         
-        echo '<div class="tabla ">';
+        echo '<div class="tabla_tb">';
         echo '<a href="' . $nombre_tabla . '.php">';
         echo '<img class="tabla_img" src="' . $ruta_imagen . '" alt="' . $nombre_tabla . '">';
-        echo '<p>' . $nombre_tabla . '</p>';
+        echo '<h2 class="name_tb">' . $nombre_tabla . '</h2>';
         echo '</a>';
         echo '</div>';
         
