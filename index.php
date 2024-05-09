@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  
   <title>Tienda</title>
   <link rel="stylesheet" type="text/css" href="style.css"> <!-- Enlace al archivo CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.4/masonry.min.css">
