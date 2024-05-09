@@ -99,26 +99,33 @@ html{
     padding: 20px;
     margin-bottom: 20px; /* Agregar margen entre filas */
     border: 4px solid #f30000; /* Agregar borde alrededor de cada tabla */
+    transition: transform 0.3s ease; /* Agregar transición para un efecto suave */
 }
 .flex_tb{
     align-items: center;
     display: flex;
     flex-wrap: wrap;
 }
-.tabla_tb{ 
-    
-    
-    margin: auto 30px;
-    margin-bottom: 30px;
-    align-items: center;
-    text-align: center;
-    height: 250px;
-   
-    border-radius: 30px;
-    background: linear-gradient(0deg, rgb(0, 195, 255) 0%, rgb(30, 255, 0) 100%);
-    padding: 20px;
-    
-    border: 4px solid #f30000; /* Agregar borde alrededor de cada tabla */
+.tabla_tb {
+  margin: auto 30px;
+  margin-bottom: 30px;
+  align-items: center;
+  text-align: center;
+  height: 250px;
+  border-radius: 30px;
+  background: linear-gradient(0deg, rgb(0, 195, 255) 0%, rgb(30, 255, 0) 100%);
+  padding: 20px;
+  border: 4px solid #f30000;
+  transition: transform 0.3s ease; /* Agregar transición para un efecto suave */
+}
+
+.tabla_tb:hover {
+  transform: scale(1.05); /* Hacer que el elemento crezca un poco al pasar el ratón */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Agregar una sombra al elemento */
+}
+.tabla:hover {
+  transform: scale(1.05); /* Hacer que el elemento crezca un poco al pasar el ratón */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Agregar una sombra al elemento */
 }
 .producto{
 
