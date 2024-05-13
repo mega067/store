@@ -24,6 +24,7 @@ if (isset($_GET['q'])) {
             echo '<a href="' . $nombre_tabla . '.php">';
             echo '<img class="tabla_img" src="' . $ruta_imagen . '" alt="' . $nombre_tabla . '">';
             echo '<h2 class="name_tb">' . $nombre_tabla . '</h2>';
+            //aqui se mostrara la coincidencia en el nombre del preoducto que esta dentro de la tabla en la columna nombre
             echo '</a>';
             echo '</div>';
         }

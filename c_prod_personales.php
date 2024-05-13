@@ -9,7 +9,7 @@ if ($resultado->num_rows > 0) {
     $contador = 0; // Contador para llevar la cuenta del número de productos en la fila actual
     while ($fila = $resultado->fetch_assoc()) {
         $codigo_de_barras = $fila["codigo_barras"];
-        $nombre_producto = $fila["nombre_producto"];
+        $nombre_producto = $fila["nombre_del_producto"];
         $precio_unitario = $fila["precio_unitario"];
         $unidades = $fila["unidades"];
         $marca = $fila["marca"];
