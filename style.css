@@ -21,7 +21,9 @@ html{
     border-radius: 80px;
     background: linear-gradient(0deg, rgb(0, 195, 255) 0%, rgb(30, 255, 0) 100%);
     text-align: center;
+    transition: transform 0.3s ease; /* Agregar transición para un efecto suave */
   }
+
   .titulo_h1{
     font-size: 35px;
     margin-left: 25px;
@@ -39,6 +41,12 @@ html{
   }
   .inp_bus{
     height: 20px;
+    transition: transform 0.3s ease; /* Agregar transición para un efecto suave */
+    margin-bottom: 12px;
+  }
+  .inp_bus:hover {
+    transform: scale(1.15); /* Hacer que el elemento crezca un poco al pasar el ratón */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Agregar una sombra al elemento */
   }
   
 
@@ -52,9 +60,13 @@ html{
 
     height: 55px;
     width: 65px;
+    transition: transform 0.3s ease; /* Agregar transición para un efecto suave */
 
 
-
+  }
+  .logo_img:hover {
+    transform: scale(1.45); /* Hacer que el elemento crezca un poco al pasar el ratón */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Agregar una sombra al elemento */
   }
 
 .divcen{
@@ -120,11 +132,11 @@ html{
 }
 
 .tabla_tb:hover {
-  transform: scale(1.05); /* Hacer que el elemento crezca un poco al pasar el ratón */
+  transform: scale(1.15); /* Hacer que el elemento crezca un poco al pasar el ratón */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Agregar una sombra al elemento */
 }
 .tabla:hover {
-  transform: scale(1.05); /* Hacer que el elemento crezca un poco al pasar el ratón */
+  transform: scale(1.15); /* Hacer que el elemento crezca un poco al pasar el ratón */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Agregar una sombra al elemento */
 }
 .producto{
@@ -163,6 +175,7 @@ footer{
 }
 
 .pie{
+    margin-top: 10%;
     align-items:center;
     border: 4px solid #f30000; /* Agregar borde alrededor de cada tabla */
     background: linear-gradient(0deg, rgb(239, 255, 98) 0%, rgb(129, 225, 255) 100%);

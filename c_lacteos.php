@@ -16,7 +16,7 @@ if ($resultado->num_rows > 0) {
         $litros = $fila["Litros"];
         $marca = $fila["marca"]; // Obtener el contenido del producto
         
-        $ruta_imagen = "bebidas_img/" . $nombre_producto . ".png";
+        $ruta_imagen = "lacteos_img/" . $nombre_producto . ".png";
 
         echo '<div class="tabla" class="flex">';
 

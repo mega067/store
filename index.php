@@ -8,9 +8,15 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.4/masonry.min.css">
 </head>
 <body>
+  
   <div class="titu">
     <div class="flex_logo">
+    <div class="logo_div"  >
+      <a href="/store"class="icono_href">
       <img class="logo_img" src="iconos/logo.png" title="logo">
+      </a>
+    </div>
+    
       <h1 class="titulo_h1">Tienda de abarrotes</h1>
       <!-- Botón de búsqueda -->
       
