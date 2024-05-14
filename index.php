@@ -20,24 +20,43 @@
       <h1 class="titulo_h1">Tienda de abarrotes</h1>
       <!-- Botón de búsqueda -->
       
-      <form action="index.php" class="busqueda"  method="GET"> <!-- Redirige la búsqueda a la misma página -->
-        <input type="text" name="q" class="inp_bus" placeholder="Buscar..." />
-        <button type="submit" class="btn_bus" > <img class="img_btn" src="iconos/buscar.png" alt=""> </button>
-      </form>
+      <form action="index.php" class="busqueda" method="GET">
+      <div class="tipo_b">
+      <div class="tipo_busqueda_label">Búsqueda de tipo de producto</div>
+      
+  <label class="switch">
+    <input type="checkbox" id="tipo_busqueda" name="tipo_busqueda" value="producto">
+    <span class="slider"></span>
+  </label>
+  <div class="producto_busqueda_label">Búsqueda de producto</div>
+      </div>
+      
+  <input type="text" name="q" class="inp_bus" placeholder="Buscar..." />
+  <button type="submit" class="btn_bus"><img class="img_btn" src="iconos/buscar.png" alt=""></button>
+</form>
+
+
       
     </div>
   </div>
   
   <div class="flex_tb">
-    <!-- Incluir el archivo PHP que muestra las tablas -->
-    <?php 
-      if(isset($_GET['q'])) {
-        include 'busqueda.php'; // Si hay un término de búsqueda, incluye el archivo de búsqueda
-      } else {
-        include 'tablas.php'; // Si no hay búsqueda, incluye el archivo de las tablas
-      }
-    ?>
-  </div>
+  <?php 
+  // Verifica si hay un término de búsqueda
+  if(isset($_GET['q'])) {
+    // Verifica el tipo de búsqueda seleccionado
+    if(isset($_GET['tipo_busqueda']) && $_GET['tipo_busqueda'] == 'producto') {
+      include 'busqueda_produc.php'; // Si se selecciona la búsqueda de producto, incluye el archivo de búsqueda correspondiente
+    } else {
+      include 'busqueda.php'; // De lo contrario, incluye el archivo de las tablas
+    }
+  } else {
+    include 'tablas.php'; // Si no hay término de búsqueda, muestra las tablas por defecto
+  }
+  ?>
+</div>
+
+
 
   <footer class="pie">
     <a href="https://github.com/mega067/store">
