@@ -5,7 +5,7 @@
   
   <title>Tienda</title>
   <link rel="stylesheet" type="text/css" href="style.css"> <!-- Enlace al archivo CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.4/masonry.min.css">
+ 
   <div class="titu">
     <div class="flex_logo">
     <div class="logo_div"  >
@@ -14,7 +14,7 @@
       </a>
     </div>
     
-      <h1 class="titulo_h1">Tienda de abarrotes</h1>
+      <h1 class="titulo_h1">TIENDA DE ABARROTES</h1>
       <!-- Botón de búsqueda -->
       
       <form action="index.php" class="busqueda" method="GET">
