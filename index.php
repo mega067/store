@@ -6,9 +6,6 @@
   <title>Tienda</title>
   <link rel="stylesheet" type="text/css" href="style.css"> <!-- Enlace al archivo CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.4/masonry.min.css">
-</head>
-<body>
-  
   <div class="titu">
     <div class="flex_logo">
     <div class="logo_div"  >
@@ -21,15 +18,6 @@
       <!-- Botón de búsqueda -->
       
       <form action="index.php" class="busqueda" method="GET">
-      <div class="tipo_b">
-      <div class="tipo_busqueda_label">Búsqueda de tipo de producto</div>
-      
-  <label class="switch">
-    <input type="checkbox" id="tipo_busqueda" name="tipo_busqueda" value="producto">
-    <span class="slider"></span>
-  </label>
-  <div class="producto_busqueda_label">Búsqueda de producto</div>
-      </div>
       
   <input type="text" name="q" class="inp_bus" placeholder="Buscar..." />
   <button type="submit" class="btn_bus"><img class="img_btn" src="iconos/buscar.png" alt=""></button>
@@ -39,6 +27,10 @@
       
     </div>
   </div>
+</head>
+<body>
+  
+
   
   <div class="flex_tb">
   <?php 
@@ -48,7 +40,7 @@
     if(isset($_GET['tipo_busqueda']) && $_GET['tipo_busqueda'] == 'producto') {
       include 'busqueda_produc.php'; // Si se selecciona la búsqueda de producto, incluye el archivo de búsqueda correspondiente
     } else {
-      include 'busqueda.php'; // De lo contrario, incluye el archivo de las tablas
+      include 'busqueda_produc.php'; // De lo contrario, incluye el archivo de las tablas
     }
   } else {
     include 'tablas.php'; // Si no hay término de búsqueda, muestra las tablas por defecto
