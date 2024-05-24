@@ -15,6 +15,7 @@
     </div>
     
       <h1 class="titulo_h1">TIENDA DE ABARROTES</h1>
+
       <!-- Botón de búsqueda -->
       
       <form action="index.php" class="busqueda" method="GET">
@@ -40,11 +41,13 @@
     if(isset($_GET['tipo_busqueda']) && $_GET['tipo_busqueda'] == 'producto') {
       include 'busqueda_produc.php'; // Si se selecciona la búsqueda de producto, incluye el archivo de búsqueda correspondiente
     } else {
-      include 'busqueda_produc.php'; // De lo contrario, incluye el archivo de las tablas
+      include 'busqueda_produc.php'; //esto se cancelo no fue mi mejor idea
     }
   } else {
-    include 'tablas.php'; // Si no hay término de búsqueda, muestra las tablas por defecto
+    include 'tablas.php'; //desde que se cancelo ya no funciona 
+    
   }
+
   ?>
 </div>
 
@@ -58,4 +61,5 @@
     <p>© 2024 Tienda de abarrotes Angel Y Michelle. Todos los derechos reservados.</p>
   </footer>
 </body>
+ 
 </html>
