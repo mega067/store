@@ -38,8 +38,11 @@ if (isset($_GET['q'])) {
                 echo '<div class="coincidencias">';
                 $contador_coincidencias = 0;
                 while ($fila_coincidencias = $resultado_coincidencias->fetch_assoc()) {
-                    if ($contador_coincidencias < 3) {
-                        echo '<li><h2 class="coincidencia">'. $fila_coincidencias['nombre_del_producto'] . '</li></h2>';
+                    if ($contador_coincidencias < 2) {
+                        
+                        echo '<li><img class="img_rb" src="'. $nombre_tabla .'_img/'. $fila_coincidencias['nombre_del_producto'] . '.png"</h2></li>';
+                        echo '<h2 class="coincidencia">'. $fila_coincidencias['nombre_del_producto'] . '</h2>';
+
                     } else {
                         // Mostrar solo dos coincidencias y agregar un enlace "Ver más"
                         echo '<a href="'. $nombre_tabla.'.php?tabla=' . $nombre_tabla . '&q=' . $busqueda . '">Ver más</a>';
