@@ -76,4 +76,5 @@ if (isset($_GET['q'])) {
 } else {
     echo "Por favor, proporcione un término de búsqueda.";
 }
+//© 2024 Tienda de abarrotes Angel Y Michelle. Todos los derechos reservados.
 ?>

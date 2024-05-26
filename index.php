@@ -14,7 +14,7 @@
       </a>
     </div>
     
-      <h1 class="titulo_h1">TIENDA DE ABARROTES</h1>
+      <h1 class="titulo_h1" id="WONKA" >TIENDA DE ABARROTES WONKA</h1>
 
       <!-- Botón de búsqueda -->
       

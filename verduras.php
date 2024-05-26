@@ -8,7 +8,7 @@
   <div class="boton">
   <a href="/store/" class="volver"><img class="volver_img" src="iconos/volver.png"></a>
 
-  <h1 class="titulo">verduras</h1>
+  <h1 class="titulo" id="B">verduras</h1>
   
   </div>
 
@@ -32,6 +32,6 @@
   <img class="git"src="iconos/github.png" alt="git" >
   <p>github</p>
   </a>
-    <p>© 2024 Tienda de abarrotes Angel Y Michellel. Todos los derechos reservados.</p>
+    <p>© 2024 Tienda de abarrotes Angel Y Michelle. Todos los derechos reservados.</p>
   </footer>
 </html>

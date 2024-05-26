@@ -36,7 +36,7 @@ html{
 
   }
   .busqueda{
-    margin-left: 35%;
+    margin-left: 19%;
   
 
   }
@@ -126,12 +126,14 @@ html{
     transition: transform 0.3s ease; /* Agregar transición para un efecto suave */
 }
 .flex_tb{
+    margin: auto auto auto;
     align-items: center;
     display: flex;
     flex-wrap: wrap;
 }
 .tabla_tb {
-  margin: auto 30px;
+  margin: auto auto auto;
+  
   margin-bottom: 30px;
   align-items: center;
   text-align: center;
@@ -366,4 +368,9 @@ footer{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: red;
   font-size: 40px;
+}
+#WONKA{
+font-family:cursive;
+color: red;
+  
 }
