@@ -355,4 +355,15 @@ footer{
   color: #333;
 }
 
+.titu_b{
   
+  display: flex;
+  height: auto;
+  width: 100%;
+
+}
+#B{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: red;
+  font-size: 40px;
+}

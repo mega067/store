@@ -7,8 +7,13 @@
 
   <div class="boton">
   <a href="/store/" class="volver"><img class="volver_img" src="iconos/volver.png"></a>
+ <div class="titu_b" class="titulo" >
 
-  <h1 class="titulo">bebidas</h1>
+ <h1 class="titulo" id="B" >SECION DE BEBIDAS</h1>
+ 
+
+ </div>
+
   
   </div>
 
