@@ -1,9 +1,11 @@
 html{
+    background-image:-webkit-image-set("iconos/logo.png");
     background: rgb(255, 255, 255);
     /*background: linear-gradient(0deg, rgba(240,225,114,1) 0%, rgb(251, 255, 0) 100%);*/
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     
 }
+
 .titulo {
     flex: 1; /* Esto hace que el título ocupe todo el espacio disponible */
     margin-right: 10px; /* Esto añade un espacio entre el título y el botón */
@@ -19,9 +21,22 @@ html{
     flex: 1; /* Esto hace que el título ocupe todo el espacio disponible */
     margin-right: 10px; /* Esto añade un espacio entre el título y el botón */
     border-radius: 80px;
-    background: linear-gradient(0deg, rgb(162, 241, 162) 0%, rgb(146, 228, 135) 100%);
+    background-color: chocolate;
     text-align: center;
     transition: transform 0.3s ease; /* Agregar transición para un efecto suave */
+  }
+  .img_wonka{
+    margin-left: 12px;
+    height: 100px ;
+    width: auto;
+    transition: 0.3s;
+
+  }
+  .img_wonka:hover{
+    
+    transform: scale(1.15);
+    
+
   }
   .btn_bus{
     background-color: #eeff00;
@@ -32,7 +47,7 @@ html{
   .titulo_h1{
     font-size: 35px;
     margin-left: 25px;
-    color: red;
+    color: rgb(255, 203, 165);
 
   }
   .busqueda{
@@ -42,7 +57,7 @@ html{
   }
   .img_btn{
     height: 30px;
-
+    
   }
   .img_rb{
     height: 150px;
@@ -371,6 +386,6 @@ footer{
 }
 #WONKA{
 font-family:cursive;
-color: red;
+
   
 }

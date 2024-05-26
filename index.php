@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html class="ico_b" >
 <head>
   <meta charset="UTF-8">
   
@@ -14,7 +14,8 @@
       </a>
     </div>
     
-      <h1 class="titulo_h1" id="WONKA" >TIENDA DE ABARROTES WONKA</h1>
+      <h1 class="titulo_h1" id="WONKA" >TIENDA DE ABARROTES </h1>
+      <img class="img_wonka" src="iconos/wonka.png">
 
       <!-- Botón de búsqueda -->
       
@@ -44,7 +45,7 @@
       include 'busqueda_produc.php'; //esto se cancelo no fue mi mejor idea
     }
   } else {
-    include 'tablas.php'; //desde que se cancelo ya no funciona 
+    include 'tablas.php'; //desde que se cancelo ya no funciona NO PLANEO ARREGLAR :D
     
   }
 
