@@ -8,7 +8,7 @@
   <div class="boton">
   <a href="/store/" class="volver"><img class="volver_img" src="iconos/volver.png"></a>
 
-  <h1 class="titulo" id="B">productos de limpieza</h1>
+  <h1 class="titulo" id="WONKA">PREODUCTOS DE LIMPIEZA</h1>
   
   </div>
 

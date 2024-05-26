@@ -10,7 +10,7 @@ html{
     flex: 1; /* Esto hace que el título ocupe todo el espacio disponible */
     margin-right: 10px; /* Esto añade un espacio entre el título y el botón */
     border-radius: 80px;
-    background: linear-gradient(0deg, rgb(110, 233, 137) 0%, rgb(30, 255, 0) 100%);
+    background-color: chocolate;
     text-align: center;
   }
   .titu{
@@ -25,6 +25,8 @@ html{
     text-align: center;
     transition: transform 0.3s ease; /* Agregar transición para un efecto suave */
   }
+
+
   .img_wonka{
     margin-left: 12px;
     height: 100px ;
@@ -97,6 +99,7 @@ html{
   }
 
 .divcen{
+    position: relative;
     align-items: center;
     
     display: flex;
@@ -105,7 +108,16 @@ html{
 
 
 }
+.fon {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+}
+
+/* Transformaciones específicas para cada imagen */
+
 .flex_logo{
+    margin-left: 400px;
     display: flex;
     align-items: center;
     margin: 2%;
@@ -119,16 +131,15 @@ html{
 
 }
 .tabla{ 
+    margin: auto auto auto;
     align-items: center;
     margin-top: 60px;
-    margin-left: 15%;
+    margin-right: 10%;
     text-align: center;
     align-items: center;
 
 
-    min-width: 300px;
-    min-height: auto;
-    max-width: 250px;
+    max-width: 300px;
     max-height: auto;
     
     border-radius: 30px;
@@ -147,6 +158,7 @@ html{
     flex-wrap: wrap;
 }
 .tabla_tb {
+  z-index: 1;
   margin: auto auto auto;
   
   margin-bottom: 30px;
@@ -199,6 +211,9 @@ html{
 
 }
 footer{
+  width: 98%;
+  position: absolute;
+  z-index: 1;
     align-items: center;
     text-align: center;
 }
@@ -287,24 +302,6 @@ footer{
     display: flex;
 
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   .tipo_b {
     display: flex;
     flex-direction: column;
@@ -384,8 +381,15 @@ footer{
   color: red;
   font-size: 40px;
 }
-#WONKA{
-font-family:cursive;
 
-  
+#WONKA{
+  font-family: Wonka;
+  color: rgb(255, 198, 158);
+  font-size: 46px;
+ 
+}
+@font-face {
+
+  font-family: Wonka;
+  src: url(font/WillyWonka.ttf);
 }
