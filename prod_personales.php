@@ -14,7 +14,48 @@
 
 <body>
 
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
 
+
+
+<img class="fon" src="iconos/desodorante.png">
+<img class="fon" src="iconos/desodorante.png">
+<img class="fon" src="iconos/desodorante.png">
+<img class="fon" src="iconos/desodorante.png">
+<img class="fon" src="iconos/desodorante.png">
+<img class="fon" src="iconos/desodorante.png">
+<img class="fon" src="iconos/desodorante.png">
+<img class="fon" src="iconos/desodorante.png">
+<img class="fon" src="iconos/desodorante.png">
+<img class="fon" src="iconos/desodorante.png">
+<img class="fon" src="iconos/desodorante.png">
+<img class="fon" src="iconos/desodorante.png">
+<img class="fon" src="iconos/desodorante.png">
+<img class="fon" src="iconos/desodorante.png">
+<img class="fon" src="iconos/desodorante.png">
+<img class="fon" src="iconos/desodorante.png">
+<img class="fon" src="iconos/desodorante.png">
+<img class="fon" src="iconos/desodorante.png">
 </div>
  <div class="divcen">
 
@@ -24,7 +65,7 @@
  
   </div>
   
-
+  <script src="script.js"></script>
 </body>
 <footer class="pie">
   <a href="https://github.com/mega067/store">

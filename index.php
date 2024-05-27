@@ -39,10 +39,7 @@
 <img class="fon" src="iconos/wonka_b.png">
 <img class="fon" src="iconos/wonka_b.png">
 <img class="fon" src="iconos/wonka_b.png">
-<img class="fon" src="iconos/wonka_b.png">
-<img class="fon" src="iconos/wonka_b.png">
-<img class="fon" src="iconos/wonka_b.png">
-<img class="fon" src="iconos/wonka_b.png">
+
 <body>
 
 

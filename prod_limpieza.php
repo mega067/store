@@ -14,6 +14,43 @@
 
 <body>
 
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+
+<img class="fon" src="iconos/limpieza.png">
+<img class="fon" src="iconos/limpieza.png">
+<img class="fon" src="iconos/limpieza.png">
+<img class="fon" src="iconos/limpieza.png">
+<img class="fon" src="iconos/limpieza.png">
+<img class="fon" src="iconos/limpieza.png">
+<img class="fon" src="iconos/limpieza.png">
+<img class="fon" src="iconos/limpieza.png">
+<img class="fon" src="iconos/limpieza.png">
+<img class="fon" src="iconos/limpieza.png">
+<img class="fon" src="iconos/limpieza.png">
+<img class="fon" src="iconos/limpieza.png">
+<img class="fon" src="iconos/limpieza.png">
+<img class="fon" src="iconos/limpieza.png">
+<img class="fon" src="iconos/limpieza.png">
+<img class="fon" src="iconos/limpieza.png">
+<img class="fon" src="iconos/limpieza.png">
+<img class="fon" src="iconos/limpieza.png">
 
 </div>
  <div class="divcen">
@@ -23,7 +60,8 @@
  </div>
  
   </div>
-  
+
+<script src="script.js"></script>
 
 </body>
 <footer class="pie">

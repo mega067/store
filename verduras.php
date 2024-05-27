@@ -13,10 +13,50 @@
   </div>
 
 <body>
-<div class="carrito">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/verdura.png">
+<img class="fon" src="iconos/verdura.png">
+<img class="fon" src="iconos/verdura.png">
+<img class="fon" src="iconos/verdura.png">
+<img class="fon" src="iconos/verdura.png">
+<img class="fon" src="iconos/verdura.png">
+<img class="fon" src="iconos/verdura.png">
+<img class="fon" src="iconos/verdura.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/verdura.png">
+<img class="fon" src="iconos/verdura.png">
+<img class="fon" src="iconos/verdura.png">
+<img class="fon" src="iconos/verdura.png">
+<img class="fon" src="iconos/verdura.png">
+<img class="fon" src="iconos/verdura.png">
+<img class="fon" src="iconos/verdura.png">
+<img class="fon" src="iconos/verdura.png">
+<img class="fon" src="iconos/verdura.png">
+<img class="fon" src="iconos/verdura.png">
+<img class="fon" src="iconos/verdura.png">
 
 
-</div>
+<script src="script.js"></script>
  <div class="divcen">
 
     <!-- Incluir el archivo PHP que muestra las tablas -->
