@@ -13,10 +13,41 @@
   </div>
 
 <body>
-<div class="carrito">
-
-
-</div>
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/leche.png">
+<img class="fon" src="iconos/leche.png">
+<img class="fon" src="iconos/leche.png">
+<img class="fon" src="iconos/leche.png">
+<img class="fon" src="iconos/leche.png">
+<img class="fon" src="iconos/leche.png">
+<img class="fon" src="iconos/leche.png">
+<img class="fon" src="iconos/leche.png">
+<img class="fon" src="iconos/leche.png">
+<img class="fon" src="iconos/leche.png">
+<img class="fon" src="iconos/leche.png">
+<img class="fon" src="iconos/leche.png">
+<img class="fon" src="iconos/leche.png">
+<img class="fon" src="iconos/leche.png">
+<img class="fon" src="iconos/leche.png">
+<img class="fon" src="iconos/leche.png">
+<img class="fon" src="iconos/leche.png">
  <div class="divcen">
 
     <!-- Incluir el archivo PHP que muestra las tablas -->
@@ -24,8 +55,9 @@
  </div>
  
   </div>
-  
 
+  
+<script src="script.js"></script>
 </body>
 <footer class="pie">
   <a href="https://github.com/mega067/store">

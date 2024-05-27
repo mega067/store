@@ -11,20 +11,62 @@
   <h1 class="titulo" id="WONKA">SECCION DE GALLETAS </h1>
   
   </div>
+  <img class="fon" src="iconos/galleta.png">
+  <img class="fon" src="iconos/galleta.png">
+  <img class="fon" src="iconos/galleta.png">
+  <img class="fon" src="iconos/galleta.png">
+  <img class="fon" src="iconos/galleta.png">
+  <img class="fon" src="iconos/galleta.png">
+  <img class="fon" src="iconos/galleta.png">
+  <img class="fon" src="iconos/galleta.png">
+  <img class="fon" src="iconos/galleta.png">
+  <img class="fon" src="iconos/galleta.png">
+  <img class="fon" src="iconos/galleta.png">
+  <img class="fon" src="iconos/galleta.png">
+  <img class="fon" src="iconos/galleta.png">
+  <img class="fon" src="iconos/galleta.png">
+  <img class="fon" src="iconos/galleta.png">
+  <img class="fon" src="iconos/galleta.png">
+  <img class="fon" src="iconos/galleta.png">
+  <img class="fon" src="iconos/galleta.png">
+  <img class="fon" src="iconos/galleta.png">
+  <img class="fon" src="iconos/galleta.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
 
-<body>
-<div class="carrito">
 
-
-</div>
  <div class="divcen">
 
     <!-- Incluir el archivo PHP que muestra las tablas -->
     <?php include 'c_galletas.php'; ?>
  </div>
- 
+</body>
   </div>
-  
+  <script src="script.js"></script>
 
 </body>
 <footer class="pie">
@@ -34,4 +76,5 @@
   </a>
     <p>© 2024 Tienda de abarrotes Angel Y Michellel. Todos los derechos reservados.</p>
   </footer>
+
 </html>

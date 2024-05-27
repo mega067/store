@@ -30,8 +30,21 @@
     </div>
   </div>
 </head>
+
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
+<img class="fon" src="iconos/wonka_b.png">
 <body>
-  
+
 
   
   <div class="flex_tb">
@@ -52,7 +65,7 @@
   ?>
 </div>
 
-
+<script src="script.js"></script>
 
   <footer class="pie">
     <a href="https://github.com/mega067/store">
