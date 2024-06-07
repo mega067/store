@@ -39,6 +39,6 @@ include 'cart.php';
         }
         ?>
     </div>
-    <a href="/store/bebidas.php">Volver a la tienda</a>
+    <a href="/store">Volver a la tienda</a>
 </body>
 </html>
