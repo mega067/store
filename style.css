@@ -41,7 +41,7 @@ html{
 
   }
   .btn_bus{
-    background-color: #eeff00;
+    background-color: rgb(233, 151, 93);
 
   }
 
@@ -68,7 +68,7 @@ html{
    border-radius: 10%;
   }
   .inp_bus{
-    background-color: #eeff00;
+    background-color: rgb(233, 151, 93);
     height: 20px;
     transition: transform 0.3s ease; /* Agregar transición para un efecto suave */
     margin-bottom: 12px;
@@ -222,7 +222,7 @@ footer{
     margin-top: 10%;
     align-items:center;
     border: 4px solid #0f0e0e; /* Agregar borde alrededor de cada tabla */
-    background-color: #84dd8c;
+    background-color:chocolate;
 }
 .git{
     width: 60px;
@@ -270,7 +270,7 @@ footer{
     height: 50px;
     margin: 12px;
     margin-right: 12px;
-    background-color: #eeff00;
+    background-color: #ffae;
     margin-top: 12px;
 }
 
@@ -383,9 +383,9 @@ footer{
 }
 
 #WONKA{
-  font-family: Wonka;
-  color: rgb(255, 198, 158);
-  font-size: 46px;
+  font-family: cursive;
+  color: rgb(245, 237, 232);
+  font-size: 35px;
  
 }
 @font-face {
