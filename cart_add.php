@@ -10,9 +10,11 @@ $nombre_producto = $_POST['nombre_producto'];
 $precio_unitario = $_POST['precio_unitario'];
 $unidades_a_comprar = $_POST['unidades_a_comprar'];
 $ruta_imagen = $_POST['ruta_imagen'];
+$tipo_producto = $_POST['tipo_producto'];  // Nuevo campo para el tipo de producto
 
-addToCart($codigo_de_barras, $nombre_producto, $precio_unitario, $unidades_a_comprar, $ruta_imagen);
+addToCart($codigo_de_barras, $nombre_producto, $precio_unitario, $unidades_a_comprar, $ruta_imagen, $tipo_producto);
 
-header('Location: /store/bebidas.php');
+// Redirigir según el tipo de producto
+header('Location: /store/' . $tipo_producto . '.php');
 exit;
 ?>

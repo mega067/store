@@ -37,6 +37,7 @@ if ($resultado->num_rows > 0) {
         echo '<input type="hidden" name="nombre_producto" value="' . $nombre_producto . '">';
         echo '<input type="hidden" name="precio_unitario" value="' . $precio_unitario . '">';
         echo '<input type="hidden" name="ruta_imagen" value="' . $ruta_imagen . '">';
+        echo '<input type="hidden" name="tipo_producto" value="bebidas">';  
         echo '<label for="unidades_a_comprar" class="unidades">Unidades a comprar:</label>';
         echo '<input type="number" id="unidades_a_comprar" name="unidades_a_comprar" min="1" max="' . $unidades . '" required>';
         echo '<button type="submit" class="btn_comprar">Añadir al carrito</button>';
