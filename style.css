@@ -28,7 +28,7 @@ html{
 
 
   .img_wonka{
-    margin-left: 12px;
+    margin-left: 10px;
     height: 100px ;
     width: auto;
     transition: 0.3s;
@@ -48,12 +48,12 @@ html{
 
   .titulo_h1{
     font-size: 35px;
-    margin-left: 25px;
+    margin-left: 15px;
     color: rgb(255, 203, 165);
 
   }
   .busqueda{
-    margin-left: 19%;
+    margin-left: 8%;
   
 
   }
@@ -222,7 +222,7 @@ footer{
     margin-top: 10%;
     align-items:center;
     border: 4px solid #0f0e0e; /* Agregar borde alrededor de cada tabla */
-    background-color:chocolate;
+    background-color:#d2691e;
 }
 .git{
     width: 60px;
@@ -392,4 +392,9 @@ footer{
 
   font-family: Wonka;
   src: url(font/WillyWonka.ttf);
+}
+.car_img{
+  margin-left: 25px;
+  height: 60px;
+  width: auto;
 }
