@@ -11,6 +11,10 @@
   <a href="/store/" class="volver"><img class="volver_img" src="iconos/volver.png"></a>
   <div class="titu_b titulo">
     <h1 class="titulo" id="WONKA">SECCIÓN DE BEBIDAS</h1>
+     <a href="cart_view.php">
+       <img class="car_img" src="iconos/cart.png" alt="Carrito" id="car" >
+     </a>
+           
   </div>
 </div>
 

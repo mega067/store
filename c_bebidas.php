@@ -25,12 +25,12 @@ if ($resultado->num_rows > 0) {
         echo '<p class="contenido">' . $contenido . '</p>';
         echo '<p class="contenido">Unidades: ' . $unidades . '</p>';
 
-        echo '<form action="compras_bebidas/actualizar_inventario_bebidas.php" method="post">';
+        /*echo '<form action="compras_bebidas/actualizar_inventario_bebidas.php" method="post">';
         echo '<input type="hidden" name="codigo_de_barras" value="' . $codigo_de_barras . '">';
         echo '<label for="unidades_a_agregar">Unidades a agregar:</label>';
         echo '<input type="number" id="unidades_a_agregar" name="unidades_a_agregar" required>';
         echo '<button type="submit" class="btn_rellenar">Rellenar inventario</button>';
-        echo '</form>';
+        echo '</form>';*/
 
         echo '<form action="cart_add.php" method="post">';
         echo '<input type="hidden" name="codigo_de_barras" value="' . $codigo_de_barras . '">';

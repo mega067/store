@@ -286,7 +286,10 @@ footer{
     height: 40px;
     width: 40px;
   }
-  
+  #car{
+    margin-top: 15%;
+    margin-right: 20px;
+  }
   .boton {
     display: flex;
     align-items: center; /* Esto asegura que los elementos estén alineados verticalmente */

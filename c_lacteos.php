@@ -8,13 +8,13 @@ $resultado = $conexion->query($consulta);
 if ($resultado->num_rows > 0) {
     $contador = 0; // Contador para llevar la cuenta del número de productos en la fila actual
     while ($fila = $resultado->fetch_assoc()) {
-        $codigo_de_barras = $fila["codigo_barras"];
+        $codigo_de_barras = $fila["codigo_de_barras"];
         $nombre_producto = $fila["nombre_del_producto"];
         $precio_unitario = $fila["precio"];
         $unidades = $fila["Unidades"];
         $gramos = $fila["Gramos"];
         $litros = $fila["Litros"];
-        $marca = $fila["marca"]; // Obtener el contenido del producto
+        $marca = $fila["marca"]; 
         
         $ruta_imagen = "lacteos_img/" . $nombre_producto . ".png";
 
@@ -29,27 +29,18 @@ if ($resultado->num_rows > 0) {
         
         echo '<p class="contenido">Unidades: ' . $unidades . '</p>'; // Mostrar el contenido en un párrafo
 
-        // Formulario para rellenar inventario
-        echo '<form action="
-        compras_lacteos/actualizar_inventario_lacteos.php" 
-        method="post">';
-        echo '<input type="hidden" name="codigo_de_barras" value="' . $codigo_de_barras . '">';
-        echo '<label for="unidades_a_agregar">Unidades a agregar:</label>';
-        echo '<input type="number" id="unidades_a_agregar" name="unidades_a_agregar" required>';
-        echo '<button type="submit" class="btn_rellenar">Rellenar inventario</button>';
-        echo '</form>';
+  
 
         // Formulario para comprar
-        echo '<div>';
-        echo '<form action=
-        "compras_lacteos/procesar_compra_lacteos.php" 
-        method="post">';
+        echo '<form action="cart_add.php" method="post">';
         echo '<input type="hidden" name="codigo_de_barras" value="' . $codigo_de_barras . '">';
-        echo '<label for="unidades_a_comprar" class=unidades >Unidades a comprar:                 </label>';
-        echo '</div>';
-
+        echo '<input type="hidden" name="nombre_producto" value="' . $nombre_producto . '">';
+        echo '<input type="hidden" name="precio_unitario" value="' . $precio_unitario . '">';
+        echo '<input type="hidden" name="ruta_imagen" value="' . $ruta_imagen . '">';
+        echo '<input type="hidden" name="tipo_producto" value="galletas">';  // Nuevo campo para el tipo de producto
+        echo '<label for="unidades_a_comprar">Unidades a comprar:</label>';
         echo '<input type="number" id="unidades_a_comprar" name="unidades_a_comprar" min="1" max="' . $unidades . '" required>';
-        echo '<button type="submit" class="btn_comprar">Comprar</button>';
+        echo '<button type="submit" class="btn_comprar">Agregar al carrito</button>';
         echo '</form>';
 
         echo '</div>';
