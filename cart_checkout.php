@@ -29,6 +29,10 @@ foreach ($_SESSION['cart'] as $item) {
             $tabla = 'lacteos';
             $campo_unidades = 'Unidades';
             break;
+        case 'prod_limpieza':
+            $tabla = 'prod_limpieza';
+            $campo_unidades = 'unidades';
+            break;
         // Agregar más casos según sea necesario
         default:
             echo "Error: Tipo de producto desconocido.";
