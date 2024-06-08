@@ -24,7 +24,7 @@
                     <img class="car_img" src="iconos/cart.png" alt="Carrito">
                     <?php
                     include 'cart.php';
-                    echo '<span class="cart-quantity">' . getCartTotalQuantity() . '</span>';
+                    echo '<span class="cart-quantity"><p class="p_cantidad">productos: ' . getCartTotalQuantity() . '</p></span>';
                     ?>
                 </a>
             </div>
