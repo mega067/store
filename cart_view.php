@@ -63,12 +63,14 @@ include 'cart.php';
             </div>
             <p>Total de artículos: <?= getCartTotalQuantity() ?></p>
             <p>Total del carrito: $<?= $total_carrito ?> MXN</p> <!-- Mostrar el total del carrito -->
+            <div class="form_flex" >
             <form action="cart_checkout.php" method="post" style="display:inline;">
                 <button type="submit" class="btn_comprar">Comprar</button>
             </form>
             <form action="cart_empty.php" method="post" style="display:inline;">
-                <button type="submit" class="btn_vaciar">Vaciar Carrito</button>
+                <button type="submit" class="btn_comprar">Vaciar Carrito</button>
             </form>
+            </div>
         <?php
         }
         ?>

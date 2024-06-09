@@ -401,3 +401,7 @@ footer{
   height: 60px;
   width: auto;
 }
+.form_flex{
+  display: flex;
+  align-items: center;
+}

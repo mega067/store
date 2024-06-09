@@ -20,7 +20,7 @@ function addToCart($codigo_de_barras, $nombre_producto, $precio_unitario, $canti
         'precio_unitario' => $precio_unitario,
         'cantidad' => $cantidad,
         'ruta_imagen' => $ruta_imagen,
-        'tipo_producto' => $tipo_producto  // Nuevo campo para el tipo de producto
+        'tipo_producto' => $tipo_producto  //  tipo de producto
     ];
 }
 
