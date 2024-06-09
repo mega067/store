@@ -37,6 +37,7 @@ include 'cart.php';
         ?>
             
             <?php foreach ($_SESSION['cart'] as $item): ?>
+                
                 <div class="tabla" class="flex">
                 
                     <img src="<?= $item['ruta_imagen'] ?>" alt="<?= $item['nombre_producto'] ?>" class="tabla_img">
@@ -61,21 +62,24 @@ include 'cart.php';
             <?php endforeach; ?>
             
             </div>
-            <p>Total de artículos: <?= getCartTotalQuantity() ?></p>
-            <p>Total del carrito: $<?= $total_carrito ?> MXN</p> <!-- Mostrar el total del carrito -->
+            
+            <h1 class="h_t" >Total del carrito: $<?= $total_carrito ?> MXN</h1> <!-- Mostrar el total del carrito -->
+            <h2 class="h_t" >Total de artículos: <?= getCartTotalQuantity() ?></h2>
+            <div class="center">
             <div class="form_flex" >
             <form action="cart_checkout.php" method="post" style="display:inline;">
                 <button type="submit" class="btn_comprar">Comprar</button>
             </form>
             <form action="cart_empty.php" method="post" style="display:inline;">
-                <button type="submit" class="btn_comprar">Vaciar Carrito</button>
-            </form>
+                <button type="submit" class="btn_var">Vaciar Carrito</button>
+            </form></div>
+            <a href="/store"><p>Volver a la tienda</p></a>
             </div>
         <?php
         }
         ?>
     
     </div>
-    <a href="/store">Volver a la tienda</a>
+    
 </body>
 </html>

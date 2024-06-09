@@ -270,7 +270,15 @@ footer{
     height: 50px;
     margin: 12px;
     margin-right: 12px;
-    background-color: #ffae;
+    background-color: rgba(0, 255, 21, 0.933);
+    margin-top: 12px;
+}
+.btn_var {
+    width: 70px;
+    height: 50px;
+    margin: 12px;
+    margin-right: 12px;
+    background-color: rgba(255, 0, 0, 0.933);
     margin-top: 12px;
 }
 
@@ -402,6 +410,15 @@ footer{
   width: auto;
 }
 .form_flex{
+  text-align: center;
   display: flex;
   align-items: center;
+  margin-left: 42.88%;
+  margin-right: 50%;
+}
+.h_t{
+  text-align: center;
+}
+.center{
+  text-align: center;
 }
