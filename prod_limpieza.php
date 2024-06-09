@@ -5,14 +5,18 @@
   <title>Tienda</title>
   <link rel="stylesheet" type="text/css" href="style.css"> </head>
 
-  <div class="boton">
-  <a href="/store/" class="volver"><img class="volver_img" src="iconos/volver.png"></a>
-
-  <h1 class="titulo" id="WONKA">PREODUCTOS DE LIMPIEZA</h1>
-  
-  </div>
 
 <body>
+<div class="boton">
+  <a href="/store/" class="volver"><img class="volver_img" src="iconos/volver.png"></a>
+  <div class="titu_b titulo">
+    <h1 class="titulo" id="WONKA">PRODUCTOS DE LIMPIEZA</h1>
+     <a href="cart_view.php">
+       <img class="car_img" src="iconos/cart.png" alt="Carrito" id="car" >
+     </a>
+           
+  </div>
+  </div>
 
 <img class="fon" src="iconos/wonka_b.png">
 <img class="fon" src="iconos/wonka_b.png">

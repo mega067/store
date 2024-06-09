@@ -7,9 +7,13 @@
 
   <div class="boton">
   <a href="/store/" class="volver"><img class="volver_img" src="iconos/volver.png"></a>
-
-  <h1 class="titulo" id="WONKA">VERDURAS</h1>
-  
+  <div class="titu_b titulo">
+    <h1 class="titulo" id="WONKA">SECCIÓN DE VERDURAS</h1>
+     <a href="cart_view.php">
+       <img class="car_img" src="iconos/cart.png" alt="Carrito" id="car" >
+     </a>
+           
+  </div>
   </div>
 
 <body>
